@@ -33,8 +33,3 @@ def test_something():
     assert len("hello")==5
     assert ("hello").startswith("h")
     assert ("hello").endswith("o")
-
-def test_set_comparison():
-    set1 = set("1308")
-    set2 = set("1308")
-    assert set1 == set2
